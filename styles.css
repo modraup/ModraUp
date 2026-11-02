@@ -35,3 +35,10 @@ html:is([lang=ja],[lang=ko]) h1{letter-spacing:-1px}
 @media(max-width:640px){.language-picker{font-size:11px}.language-picker summary{padding:4px 7px;gap:6px}html:not(:is([lang=zh-CN],[lang=zh-Hant])) .hero-tag{display:none}.eyebrow{flex-wrap:wrap}html:not(:is([lang=zh-CN],[lang=zh-Hant])) .feature-tabs{gap:16px;overflow-x:auto}html:not(:is([lang=zh-CN],[lang=zh-Hant])) .feature-tabs button{flex-shrink:0}html:is([lang=es],[lang=fr]) .hero-copy{font-size:14px}html:is([lang=ja],[lang=ko]) h1{font-size:44px}.detail-head{flex-wrap:wrap;gap:7px}.detail-badge{white-space:normal}.project-facts strong{overflow-wrap:anywhere}}
 @media(max-width:440px){html:not(:is([lang=zh-CN],[lang=zh-Hant])) .header-actions>.header-link{display:none}}
 @media(max-width:360px){.header .brand img{width:123.75px;height:30px}}
+/* Release downloads share the existing button styles and wrap on small screens. */
+.hero-actions,.download-actions{flex-wrap:wrap}
+.download-actions{display:flex;gap:12px;scroll-margin-top:100px}
+.download-actions .button{flex-direction:column;gap:3px;text-align:center}
+.download-actions small{font-size:11px;font-weight:400}
+.project-card>div>p.download-note{font-size:12px;margin:12px 0 0}
+.faq-list details p a{color:var(--blue);text-decoration:underline}
