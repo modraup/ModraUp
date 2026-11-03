@@ -42,3 +42,9 @@ html:is([lang=ja],[lang=ko]) h1{letter-spacing:-1px}
 .download-actions small{font-size:11px;font-weight:400}
 .project-card>div>p.download-note{font-size:12px;margin:12px 0 0}
 .faq-list details p a{color:var(--blue);text-decoration:underline}
+.development-section{padding-bottom:0}
+.development-section .section-heading{gap:32px;align-items:flex-start}
+.development-section .section-heading>p{max-width:360px}
+.development-resources{display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:30px;font-size:13px}
+.development-resources>span{color:var(--muted)}
+.development-resources a{color:var(--blue);text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
